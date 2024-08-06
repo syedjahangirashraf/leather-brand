@@ -1,0 +1,216 @@
+h1 {
+    text-align: center;
+    color: navy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+}
+
+.logo {
+    background-color: rgb(4, 4, 3);
+}
+
+.logo img {
+    width: 8%;
+    margin-left: 44%;
+    border-radius: 1060px;
+    animation-name: logo;
+    animation-duration: 50s;
+    transform: scale(50px, 60px);
+
+}
+
+/* @keyframes logo {
+
+    from{
+        width: 8%;
+    }
+
+    to{
+        width: 12%
+    }
+
+} */
+
+nav {
+    text-align: center;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color: rgb(2, 6, 42);
+    font-size: 30px;
+    margin: 70px;
+}
+
+nav a:hover {
+    color: rgb(38, 21, 1);
+    text-decoration: rgb(15, 15, 17) underline;
+    transition: 1s all ease;
+}
+
+.header {
+    background-color: rgb(222, 236, 236);
+    padding: 80px;
+    animation-name: example;
+    animation-duration: 15s;
+}
+
+/* @keyframes example{
+    from {background-color:cadetblue;}
+    to {background-color:rgb(243, 237, 228) ;}
+    0% {background-color: bisque;}
+    25% {background-color: rgb(142, 130, 209);}
+    50% {background-color: rgb(220, 130, 185);}
+    75% {background-color: rgb(230, 240, 122);}
+    100% {background-color: rgb(106, 180, 206);}
+
+    from {border-radius:0px;}
+    to {border-radius: 150px;}
+} */
+
+.header:hover {
+    color: burlywood;
+    border-radius: 55px;
+    transition: 1s all ease;
+}
+
+.links {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+button {
+    font-size: 25px;
+    margin-right: 30px;
+    background-color: black;
+
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+}
+
+button a:hover {
+    text-decoration: underline;
+}
+
+.box {
+    border: 2px solid black;
+    width: 1000px;
+    text-align: center;
+    margin-left: 17%;
+    margin-top: 135px;
+    padding-bottom: 50px;
+    background-color: rgb(232, 228, 244);
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+}
+
+.text {
+    font-size: 25px;
+}
+
+/* img{
+    padding-top: 25px;
+    margin: top 25px; ;
+} */
+
+.description {
+    color: gray;
+    text-align: center;
+    font-size: 25px;
+}
+
+.inputs {
+    font-size: 25px;
+    text-align: left;
+    padding-left: 150px;
+}
+
+input {
+    width: 800px;
+    font-size: 34px;
+    border: 2px solid black;
+    border-radius: 0 20px 20px 20px;
+    height: 45px;
+    margin-left: -55px;
+}
+
+:placeholder-shown {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.lbutton {
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.lbutton :hover {
+    color: navy;
+    transition: 0s all ease;
+}
+
+.or {
+    border-bottom: 1px solid rgb(186, 179, 179);
+
+    font-size: 34px;
+    line-height: 1px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.or span {
+    padding: 0 10px;
+    background-color: white;
+    color: black;
+}
+
+.button img {
+    width: 20px;
+    display: inline-block;
+
+}
+
+.button {
+    font-size: 20px;
+    width: 280px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.line {
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.line1 {
+    font-size: 25px;
+    text-underline-offset: 20px;
+}
+
+.line a {
+
+    color: black;
+    line-height: 20px;
+    text-align: center;
+}
