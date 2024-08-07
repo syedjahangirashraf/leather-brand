@@ -247,7 +247,7 @@ button a:hover {
     html,
     body,
     .logo {
-        width: 80px;
+        width: 100%;
     }
 }
 
@@ -255,9 +255,9 @@ button a:hover {
 
     html,
     body,
-    .header {
+    .header, .links {
         width: 100%;
-        font-size: 16px;
+        font-size: 6px;
     }
 }
 
@@ -266,8 +266,8 @@ button a:hover {
     html,
     body,
     .header .button {
-        width: 20px;
-        font-size: 16px;
+        width:100%;
+        font-size: 2px;
     }
 }
 
@@ -276,7 +276,7 @@ button a:hover {
     html,
     body,
     .hero {
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -284,6 +284,7 @@ button a:hover {
 
     html,
     body,
+    .card1,
     .cards,
     .card2,
     .card3,
